@@ -1,0 +1,430 @@
+
+*** Running vivado
+    with args -log Encoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Encoder.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Encoder.tcl -notrace
+Command: synth_design -top Encoder -part xa7a12tcpg238-2I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11564 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 563.742 ; gain = 185.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Encoder' [D:/Users/Username/Turbo_encoder/Turbo_encoder.srcs/sources_1/new/Encoder.sv:23]
+	Parameter INPUT_LEN bound to: 648 - type: integer 
+	Parameter OUTPUT_LEN bound to: 1944 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element shift_reg_1_reg was removed.  [D:/Users/Username/Turbo_encoder/Turbo_encoder.srcs/sources_1/new/Encoder.sv:43]
+WARNING: [Synth 8-6014] Unused sequential element shift_reg_2_reg was removed.  [D:/Users/Username/Turbo_encoder/Turbo_encoder.srcs/sources_1/new/Encoder.sv:44]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [D:/Users/Username/Turbo_encoder/Turbo_encoder.srcs/sources_1/new/Encoder.sv:45]
+WARNING: [Synth 8-6014] Unused sequential element interleaved_input_data_reg was removed. 
+INFO: [Synth 8-6155] done synthesizing module 'Encoder' (1#1) [D:/Users/Username/Turbo_encoder/Turbo_encoder.srcs/sources_1/new/Encoder.sv:23]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[0]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[1]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[2]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[3]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[4]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[5]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[6]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[7]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[8]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[9]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[10]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[11]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[12]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[13]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[14]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[15]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[16]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[17]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[18]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[19]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[20]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[21]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[22]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[23]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[24]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[25]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[26]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[27]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[28]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[29]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[30]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[31]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[32]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[33]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[34]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[35]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[36]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[37]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[38]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[39]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[40]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[41]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[42]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[43]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[44]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[45]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[46]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[47]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[48]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[49]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[50]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[51]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[52]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[53]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[54]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[55]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[56]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[57]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[58]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[59]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[60]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[61]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[62]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[63]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[64]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[65]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[66]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[67]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[68]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[69]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[70]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[71]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[72]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[73]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[74]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[75]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[76]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[77]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[78]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[79]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[80]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[81]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[82]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[83]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[84]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[85]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[86]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[87]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[88]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[89]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[90]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[91]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[92]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[93]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[94]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[95]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[96]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[97]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[98]
+WARNING: [Synth 8-3331] design Encoder has unconnected port input_data[99]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 645.441 ; gain = 267.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 645.441 ; gain = 267.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a12tcpg238-2I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 645.441 ; gain = 267.312
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a12tcpg238-2I
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 751.355 ; gain = 373.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1944  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Encoder 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1944  
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1943] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1942] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1941] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1940] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1939] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1938] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1937] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1936] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1935] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1934] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1933] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1932] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1931] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1930] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1929] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1928] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1927] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1926] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1925] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1924] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1923] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1922] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1921] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1920] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1919] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1918] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1917] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1916] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1915] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1914] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1913] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1912] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1911] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1910] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1909] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1908] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1907] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1906] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1905] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1904] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1903] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1902] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1901] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1900] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1899] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1898] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1897] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1896] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1895] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1894] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1893] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1892] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1891] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1890] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1889] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1888] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1887] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1886] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1885] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1884] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1883] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1882] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1881] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1880] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1879] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1878] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1877] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1876] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1875] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1874] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1873] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1872] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1871] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1870] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1869] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1868] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1867] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1866] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1865] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1864] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1863] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1862] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1861] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1860] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1859] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1858] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1857] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1856] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1855] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1854] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1853] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1852] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1851] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1850] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1849] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1848] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1847] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1846] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1845] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\output_data_reg[1844] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 751.355 ; gain = 373.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 760.742 ; gain = 382.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 760.742 ; gain = 382.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |  1944|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1944|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1300 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 760.805 ; gain = 382.676
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-101] Netlist 'Encoder' is not ideal for floorplanning, since the cellview 'Encoder' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 861.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+111 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 861.816 ; gain = 508.566
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 861.816 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Username/Turbo_encoder/Turbo_encoder.runs/synth_1/Encoder.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Encoder_utilization_synth.rpt -pb Encoder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 15 05:16:32 2023...
